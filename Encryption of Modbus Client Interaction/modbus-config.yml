@@ -1,0 +1,7 @@
+devices:
+- modbus:
+    url: 10.0.2.6:502     # device url (mandatory)
+    timeout: 10                # communication timeout (s) (optional, default: 10)
+    connection_time: 0.1      # delay after connection (s) (optional, default: 0)
+  listen:
+    bind: 10.0.2.6:9000  # listening address (mandatory)
